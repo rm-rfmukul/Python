@@ -46,3 +46,41 @@ y = int(input())
 
 max_fun(x,y)
 
+#=============================================================================================
+ 
+ 
+def min_fun(x,y):
+        res = min(x,y)
+        print(res)
+    
+x = int(input())
+y = int(input())
+
+
+min_fun(x,y)
+
+#=============================================================================================
+
+
+def max_ter(x,y):
+    
+    print("x is smaller" if x < y else "y is smaller")
+   
+    
+x = int(input())
+y = int(input())
+(max_ter(x,y))
+
+#=============================================================================================
+
+
+def max_condt(x,y):
+    
+    if(x<y):
+        print("X:",x, "is smaller than Y:",y)
+    else:
+        print("Y:",y, "is smaller than X:",x)
+    
+x = int(input())
+y = int(input())
+(max_condt(x,y))
